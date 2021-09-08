@@ -2,7 +2,7 @@ import { getRepository } from "typeorm";
 import { Alunos } from '../entity/Alunos';
 import { Request, Response } from "express";
 
-// Consultar Alunos
+// Consultar Alunos -
 export const getAlunos = async(request: Request, response: Response) => {
     const alunos = await getRepository(Alunos).find()
     return response.json(alunos); 
