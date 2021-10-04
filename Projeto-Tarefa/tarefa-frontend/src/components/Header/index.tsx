@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="navbar navbar-dark bg-dark"> 
         <Container>
             <Navbar.Brand href="#home">Tarefas</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
