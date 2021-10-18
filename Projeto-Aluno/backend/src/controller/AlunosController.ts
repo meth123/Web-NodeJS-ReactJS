@@ -48,11 +48,11 @@ export const deleteAluno = async(request: Request, response: Response) => {
     }
 };
 
-// Matricula do aluno --> no caso eu coloquei para cancelar a matricula dele.
+// Matricula do aluno 
 export const registrationAluno = async(request: Request, response: Response) => {
     const {id} = request.params
     const aluno = await getRepository(Alunos).update(id, {
-        registration: false,
+        registration: true,
     })
 
     if (aluno.affected == 1) {

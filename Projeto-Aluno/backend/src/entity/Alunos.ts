@@ -23,7 +23,7 @@ export class Alunos{
     adress: string;
 
     @Column({
-        default: true
+        default: false
     })
     registration: boolean; // matricula 
  
