@@ -4,6 +4,8 @@ import api from '../../../services/api';
 import './index.css';
 import { useHistory, useParams } from 'react-router-dom';
 
+// .
+
 interface IAlunos{
     name: string;
     age: number;
@@ -133,7 +135,7 @@ ChangeEvent<HTMLInputElement>) => updatedModel(e)}/>
                                     value={model.birth}
                                     onChange={(e: 
 ChangeEvent<HTMLInputElement>) => updatedModel(e)}/>
-                </Form.Group>
+                </Form.Group> 
 
                 <Button className="submit" variant="dark" type="submit">
                         Salvar
