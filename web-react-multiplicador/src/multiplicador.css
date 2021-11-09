@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+div > center{
+    background-color: darkcyan;
+    color: white;
+    margin: 2% 30%;
+    padding: 5% 0%;
+}
+
+.number{
+    display: block;
+    margin: 2% 0%;
+    padding: 1%;
+}
+
+#result{
+    display: block;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    margin: 3% 3%;
+    padding: 1% 3%;
+}
